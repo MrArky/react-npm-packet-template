@@ -1,5 +1,5 @@
 {
-  "name": "manyin-npm-packege-template",
+  "name": "react-npm-packet-template",
   "version": "1.0.3",
   "description": "测试组件开发，这可以做一个模板",
   "main": "lib/index.js",
