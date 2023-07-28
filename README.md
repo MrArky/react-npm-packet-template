@@ -41,6 +41,7 @@ output: {
 },
 ```
 即 `library` 中的 `name`。
+
 **package.json** 文件定义包信息：
 ``` json
 {
@@ -61,6 +62,11 @@ output: {
 - `description` 为描述；
 - `main` 为入口js；
 - `files` 为需要上传文件目录；
+  
+**.npmrc** 文件，定义了私有库的地址：
+``` txt
+registry = 'http://XXX.XXX.XXX.XXX:XXXX/'
+```
 ## 组件定义
 组件定义不要求位置，只需要在打包时在 `src/index.tsx` 输出即可：
 ``` jsx
