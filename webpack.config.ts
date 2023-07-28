@@ -28,7 +28,7 @@ module.exports = {
         // export用来指定哪一个导出应该被暴露为一个库
         // 'default'就是我们默认导出的库
         library: {
-            name: 'manyin-npm-packege-template',
+            name: 'react-npm-packet-template',
             type: 'umd',
             export: 'default'
         },
