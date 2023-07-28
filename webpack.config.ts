@@ -80,9 +80,9 @@ module.exports = {
             template: "./src/index.html"
         }),
         // new MiniCssExtractPlugin({
-        //     // 因为我们在文件中引入就是manyin-npm-packege-template.css
+        //     // 因为我们在文件中引入就是react-npm-packet-template.css
         //     // 所以在打包后，也用这个名字，以免引入失败
-        //     filename: 'manyin-npm-packege-template.css'
+        //     filename: 'react-npm-packet-template.css'
         // }),
         new webpack.DefinePlugin({
             __DEV__: true,
