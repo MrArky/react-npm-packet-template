@@ -21,6 +21,7 @@
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
+    "@babel/preset-flow": "^7.21.4",
     "@types/node": "^20.4.5",
     "@types/react": "^18.2.17",
     "@types/webpack": "^5.28.1",
@@ -40,10 +41,8 @@
     "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
-    "@babel/preset-flow": "^7.21.4",
     "antd": "^4.22.0",
     "manyin-npm-packege-template": "^1.0.3",
-    "mytable": "^1.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
